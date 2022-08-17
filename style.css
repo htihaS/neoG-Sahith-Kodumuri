@@ -1,13 +1,37 @@
-@import url('https://fonts.googleapis.com/css2?family=Teko:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Oxygen:wght@400;700&family=Teko:wght@400;700&display=swap');
+:root{
+    --primary-color: #00BFA6;
+}
+
 body {
-    font-family: 'Teko', sans-serif;
+    font-family: 'Oxygen', sans-serif;
 }
-h1 {
-    color: green;
+
+
+/* Containers */
+.container {
+    padding: 0 rem 1rem;
 }
-#header {
-    color: Black;
+.container-center{
+    max-width: 600px;
+    margin: auto;
 }
-.subheading{
-    color: red;
+
+hr{
+    margin: 3rem;
+}
+/* Links */
+.links{
+    text-decoration: none;
+    padding: 0.2rem 1rem;
+}
+.link-primary{
+    background-color: var(--primary-color);
+    border-radius: 0.5 rem;
+    color: white;
+}
+.link-secondary{
+    color:var(--primary-color);
+    padding: 0.2rem 1 rem;
+    border: 1px solid var(--primary-color);
 }
