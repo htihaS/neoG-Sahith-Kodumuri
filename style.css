@@ -5,6 +5,7 @@
 
 body {
     font-family: 'Oxygen', sans-serif;
+    margin: 0rem;
 }
 
 
@@ -80,4 +81,31 @@ border-bottom-left-radius: 1rem;
     color: var(--primary-color);
     text-align: center;
     padding: 1rem;
+}
+
+/* Section */
+.section{
+    padding: 1rem;
+}
+.section .section-heading{
+    padding: 2rem;
+    text-align: center;
+}
+.section-offwhite{
+    background-color: rgb(243, 241, 239);
+}
+
+/* footer */
+.footer{
+    background-color: var(--primary-color);
+    padding: 2rem 1rem;
+    text-align: center;
+    color: white;
+    border-top-right-radius: 1rem;
+}
+.footer .links{
+    color: white;
+}
+.footer .ul{
+    padding-inline-start: 0px;
 }
