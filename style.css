@@ -101,6 +101,9 @@ border-bottom-left-radius: 1rem;
 .section .section-paragraph{
     padding: 0.2rem;
 }
+.section-paragraph{
+    padding: 1rem;
+}
 
 /* footer */
 .footer{

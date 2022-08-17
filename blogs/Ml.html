@@ -7,18 +7,175 @@
     <title>Machine Learning</title>
      <link href="/style.css" rel="stylesheet"/>
 </head>
-<body>
-    <div class="container container-center">
-        <h1 class="container continer-center">Introduction to Machine Learning</h1>
+<body style="margin-left: 2rem;">
+    <div class="hero">
+        <h1 class="container container-center hero-heading">Introduction to Machine Learning</h1>
     </div>
-    <div>
-        <p>
-            <strong>Taste of Machine Learning</strong><br>
-            Arthur Samuel, an American pioneer in the field of computer gaming and artificial intelligence, coined the term "Machine Learning" in 1959.
-            Over the past two decades Machine Learning has become one of the mainstays of information technology. 
-            With the ever-increasing amounts of data becoming available there is good reason to believe that smart data analysis will become even more pervasive as a necessary ingredient for technological progress.
+    <div style="padding-left: 1rem;">
+        <p class="section-paragraph">
+            <strong>What is Machine learning</strong><br>
+            Machine learning is an application of artificial intelligence (AI) that provides systems the ability to automatically learn and improve from experience without being explicitly programmed.
+            Machine learning focuses on the development of computer programs that can access data and use it to learn for themselves.
+            <br>
+            <strong>What is Artificial intelligence</strong><br>
+            Artificial intelligence refers to the simulation of human intelligence in machines that are programmed to think like humans and mimic their actions.
+            The term may also be applied to any machine that exhibits traits associated with a human mind such as learning and problem solving
+            <br>
+            
+            <ul class="lists">
+                <strong>Future of Machine learning</strong>
+                <li>Machine Learning can be a competitive advantage to any company be it a top MNC or a startup as things that are currently being done manually will be done tomorrow by machines.</li>
+                <li>The Machine Learning revolution will stay with us for long and so will be the future of Machine Learning.</li>
+            </ul>
         </p>
-        <img src=""/>
+        <div class="hero">
+            <img class="hero-img" src="/Images/ML.png"/>
+        </div>
     </div>
+    <hr>
+    <div>
+        <p class="section-paragraph">
+            <strong>Traditional Programming vs. Machine Learning Approach</strong><br>
+            For a traditional program generally input is taken along with the functions for appropriate output.
+            But in Machine learning programming Input with desired output is also taken to get appropriate output
+            Machine Learning uses a number of theories and techniques from Data Science.
+            Machine Learning relies on learning patterns based on sample data.
+            Traditional programming relies on hard-coded rules. 
+        </p>
+        <div class="hero">
+            <img class="hero-img" src="/Images/MLvsTraditional.png"/>
+        </div>
+    </div>
+    <hr>
+    <div>
+        <ul class="lists">
+            <strong>Applications of Machine learning</strong>
+            <li>Image Processing</li>
+            <li>Optical Character Recognition (OCR)</li>
+            <li>Self-driving cars</li>
+            <li>Self-driving cars</li>
+            <li>Robotics</li>
+            <li>Industrial robotics</li>
+            <li>Human simulation</li>
+            <li>Healthcare</li>
+        </ul>
+    </div>
+    <hr>
+    <div>
+        <h2><bold>Typs of algorithms In Machine learning</bold></h2>
+        <div class="hero">
+            <img class="hero-img" src="/Images/Ml-algo.png"/>
+        </div>
+        <p>
+            <h3><bold>Supervised learning</bold><br></h3>
+                <strong>Regression</strong><br> 
+                    In statistical modeling, regression analysis is a set of statistical processes for estimating the relationships among variables. 
+                    It includes many techniques for modeling and analyzing several variables, when the focus is on the relationship between a dependent variable and one or more independent variables (or 'predictors'). 
+                    More specifically, regression analysis helps one understand how the typical value of the dependent variable (or 'criterion variable') changes when any one of the independent variables is varied, while the other independent variables are held fixed.
+                    <br>
+                    <br><strong>Linear Regression</strong><br>
+                        Linear regression is a linear approach for modeling the relationship between a  scalar dependent variable y and an independent variable x. 
+                        where x, y, w are vectors of real numbers and w is a vector of weight parameters. 
+                        The equation is also written as:
+                        where b is the bias or the value of output for zero input
+                        Y=WX+B
+                        <br>
+                    <br><strong>Multiple Linear Regression</strong><br>
+                    It is a statistical technique used to predict the outcome of a response variable through several explanatory variables and model the relationships between them.
+                    It represents line fitment between multiple inputs and one output, typically:
+                        Y=W1X1+W2X2
+                        <br>
+
+                    <br><strong>Polynomial Regression</strong><br>
+                    Polynomial regression is applied when data is not formed in a straight line. 
+                    It is used to fit a linear model to non-linear data by creating new features from powers of non-linear features.
+                           <br> Y=W1X1*X1+W2X2*X2+B <br>
+                    When the data is so much scattered and when it cannot be captured with a linear line then we need something which can cover up the scattered data.
+                    Then comes polynomial regression to some this problem of scattered data.
+                    Polynomial regression gives much lesser losses in comparison with linear regression for scattered data,in future we will also discuss multiple regression which can handle highly scattered data.
+                    <hr>
+                    <br>
+                <h3><strong>Type of classification</strong></h3>
+                <div class="hero">
+                    <img class="hero-img" src="/Images/classification-algos.png"/>
+                </div>
+                    It specifies the class to which data elements belong to.
+                    It predicts a class for an input variable. 
+                    It is best used when the output has finite and discrete values. 
+
+                    <br>
+                    <br><strong>Logistic Regression</strong><br>
+                    This method is widely used for binary classification problems. It can also be extended to multi-class classification problems.
+                    A binary dependent variable can have only two values, like 0 or 1, win or lose, pass or fail, healthy or sick, etc. 
+                    The probability in the logistic regression is often represented by the Sigmoid function (also called the logistic function or the S-curve)
+                                S(T)=1/1+e^-t
+                                <br>
+                    <br><strong>Support Vector machines</strong><br>
+                    SVMs are very versatile and are also capable of performing linear or nonlinear classification, regression, and outlier detection. 
+                    They involve detecting hyperplanes which segregate data into classes. 
+                    The optimization objective is to find the “maximum margin hyperplane” that is farthest from the closest points in the two classes (these points are called support vectors).
+                    A support vector machine takes these data points and outputs the hyperplane (which in two dimensions it’s simply a line) that best separates the tags. This line is the decision boundary: anything that falls to one side of it we will classify as blue, and anything that falls to the other as red.
+                    <br>
+                    <hr>
+                    <br><strong>K-Nearest Neighbors (KNN) </strong><br>
+                    K-nearest Neighbors algorithm is used to assign a data point to clusters based on similarity measurement.
+                    A new input point is classified in the category such that it has the greatest number of neighbors from that category.
+
+			
+                    <br>
+                    <br><strong>Kernel Support Vector Machines (SVM)</strong><br>
+                    Kernel Support Vector Machines (SVM) Kernel SVMs are used for classification of nonlinear data.
+                    In the chart, nonlinear data is projected into a higher dimensional space via a mapping function where it becomes linearly separable. 
+                    A reverse projection of the higher dimension back to original feature space takes it back to nonlinear shape.
+                    <br>
+                    <br><strong>Naive bayes</strong><br>
+                    Naive Bayes classifiers are a collection of classification algorithms based on Bayes’ Theorem. 
+                    It is not a single algorithm but a family of algorithms where all of them share a common principle, i.e. every pair of features being classified is independent of each other.
+                    According to Bayes model, the conditional probability P(Y|X) can be calculated as: 
+                            
+                                P(Y|X)=P(X|Y)*P(X)/P(Y)
+
+                    Using Bayes theorem, we can find the probability of A happening, given that B has occurred. Here, B is the evidence and A is the hypothesis. The assumption made here is that the predictors/features are independent. That is, the presence of one particular feature does not affect the other. Hence it is called naive.
+                    This means you have to estimate a very large number of P(X|Y) probabilities for a relatively small vector space X.
+
+					<br>
+                    <br><strong>Decision Tree</strong><br>
+                    The advantage of decision trees is that they require very little data preparation. 
+                    They do not require feature scaling or centering at all. 
+                    They are also the fundamental components of Random Forests, one of the most powerful ML algorithms. 
+                    Start at the tree root and split the data on the feature using the decision algorithm, resulting in the largest information gain (IG).
+
+                    <br>
+                    <br><strong>Random forest</strong><br>
+                    Random decision forests correct for decision trees' habit of overfitting to their training set.
+                    Random forests or random decision forests are an ensemble learning method for classification, regression and other tasks that operates by constructing a multitude of decision trees at training time and outputting the class that is the mode of the classes (classification) or mean prediction (regression) of the individual trees.
+
+            <hr style="font-weight: bold">
+            <h3>Unsupervised Learning</h3>
+                <br><strong>Clustring</strong><br>
+                Clustering is a Machine Learning technique that involves the grouping of data points.
+
+                <br><strong> Prototype Based Clustering</strong><br>
+                    Prototype-based clustering assumes that most data is located near prototypes; example: centroids (average) or medoid (most frequently occurring point)
+                    K-means, a Prototype-based method, is the most popular method for clustering that involves: 
+                    Training data that gets assigned to matching cluster based on similarity 
+                    Iterative process to get data points in the best clusters possible
+                    <br>
+                <br><strong>K-mean clustering</strong><br>
+                    Step 1: randomly pick k centroids
+                    Step 2: assign each point to the nearest centroid 
+                    Step 3: move each centroid to the center of the respective cluster
+                    Step 4: calculate the distance of the centroids from each point again 
+                    Step 5: move points across clusters and re-calculate the distance from the centroid 
+                    Step 6: keep moving the points across clusters until the Euclidean distance is minimized
+                    So we can conclude that K-mean clustering forms up groups with the help of centroids,just by calculating the Euclidean distance,
+                    But, here the question is how many clustres should be formed or how many “K” values should be taken.This problem is solved by the ELBOW method.
+                    Elbow method
+                    One could plot the Distortion against the number of clusters K. Intuitively, if K increases, distortion should decrease. This is because the samples will be close to their assigned centroids. This plot is called the Elbow method. 
+                    It indicates the optimum number of clusters at the position of the elbow, the point where distortion begins to increase most rapidly.
+
+        </p>
+    </div>
+
 </body>
 </html>
