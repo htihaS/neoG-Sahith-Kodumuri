@@ -30,6 +30,7 @@ hr{
     background-color: var(--primary-color);
     border-radius: 0.5rem;
     color: white;
+    font-weight: bold;
     
 }
 .link-secondary{
@@ -37,6 +38,8 @@ hr{
     padding: 0.2rem 1 rem;
     border: 1px solid var(--primary-color);
     border-radius: 0.5rem;
+    background-color:white;
+    font-weight: bold;
 }
 
 /* List */
@@ -94,6 +97,9 @@ border-bottom-left-radius: 1rem;
 }
 .section-offwhite{
     background-color: rgb(243, 241, 239);
+}
+.section .section-paragraph{
+    padding: 0.2rem;
 }
 
 /* footer */
