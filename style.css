@@ -28,14 +28,15 @@ hr{
 }
 .link-primary{
     background-color: var(--primary-color);
-    border-radius: 1rem;
+    border-radius: 0.5rem;
     color: white;
-    padding: 0.3rem;
+    
 }
 .link-secondary{
     color:var(--primary-color);
     padding: 0.2rem 1 rem;
     border: 1px solid var(--primary-color);
+    border-radius: 0.5rem;
 }
 
 /* List */
@@ -56,7 +57,7 @@ border-bottom-left-radius: 1rem;
 }
 .navigation .nav-brand{
     font-weight: bold;
-    font-size: 1.1rem;
+    font-size: 1.5rem;
 }
 .navigation .links{
     color: white;
