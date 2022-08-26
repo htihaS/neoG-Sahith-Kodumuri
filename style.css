@@ -86,6 +86,9 @@ border-bottom-left-radius: 1rem;
     text-align: center;
     padding: 1rem;
 }
+.hero .hero-heading .hero-heading-gradient{
+    color: black;
+}
 
 /* Section */
 .section{
