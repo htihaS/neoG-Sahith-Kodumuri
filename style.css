@@ -116,6 +116,9 @@ border-bottom-left-radius: 1rem;
     text-align: center;
     color: white;
     border-top-right-radius: 1rem;
+    margin-top: 1rem ;
+    margin-left: 0rem;
+    margin-right: 0rem;
 }
 .footer .links{
     color: white;
