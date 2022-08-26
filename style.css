@@ -90,6 +90,7 @@ border-bottom-left-radius: 1rem;
 /* Section */
 .section{
     padding: 1rem;
+    text-align: center;
 }
 .section .section-heading{
     padding: 2rem;
