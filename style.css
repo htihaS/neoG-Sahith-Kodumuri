@@ -126,3 +126,9 @@ border-bottom-left-radius: 1rem;
 .footer .ul{
     padding-inline-start: 0px;
 }
+
+/* images */
+.img-footer{
+    height: 40px;
+    width: 40px;
+}
