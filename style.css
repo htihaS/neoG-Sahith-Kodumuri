@@ -5,7 +5,7 @@
 
 body {
     font-family: 'Oxygen', sans-serif;
-    margin: 0rem;
+    margin: 0rem  10rem;
 }
 
 
@@ -96,7 +96,7 @@ border-bottom-left-radius: 1rem;
     text-align: center;
 }
 .section .section-heading{
-    padding: 2rem;
+    padding: 0.5rem;
     text-align: center;
 }
 .section-offwhite{
@@ -106,7 +106,7 @@ border-bottom-left-radius: 1rem;
     padding: 0.2rem;
 }
 .section-paragraph{
-    padding: 1rem;
+    padding: 0rem;
 }
 
 /* footer */
